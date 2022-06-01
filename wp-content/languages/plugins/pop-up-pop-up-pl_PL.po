@@ -1,0 +1,165 @@
+# Translation of Plugins - Pop-up - Stable (latest release) in Polish
+# This file is distributed under the same license as the Plugins - Pop-up - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2022-02-17 06:55:54+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2);\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: pl\n"
+"Project-Id-Version: Plugins - Pop-up - Stable (latest release)\n"
+
+#: pop-up-pop-up.php:142
+msgid "options saved"
+msgstr "opcje zostały zapisane"
+
+#: pop-up-pop-up.php:122
+msgid "saved"
+msgstr "zapisano"
+
+#: views/main.php:31
+msgid "Pop-up status cannot be changed - Please login to <a href=\"%s\" target=\"_blank\">MyPopUps.com</a> to learn more."
+msgstr "Nie można zmienić statusu pop-upu – zaloguj się na <a href=\"%s\" target=\"_blank\">MyPopUps.com</a>, aby dowiedzieć się więcej."
+
+#: views/main.php:28
+msgid "Server not responding"
+msgstr "Serwer nie odpowiada"
+
+#: views/main.php:27
+msgid "MyPopUps origin response error"
+msgstr "Błąd odpowiedzi pochodzi z MyPopUps"
+
+#: views/main.php:26
+msgid "Autentification Error"
+msgstr "Błąd autoryzacji"
+
+#: views/main.php:25
+msgid "Show More Pop-ups"
+msgstr "Pokaż więcej pop-upów"
+
+#: pop-up-pop-up.php:215
+msgid "Server not return domain code"
+msgstr "Serwer nie zwraca kodu domeny"
+
+#: pop-up-pop-up.php:209 pop-up-pop-up.php:258
+msgid "Please check permission, I could not save this file: "
+msgstr "Sprawdź uprawnienia, nie można zapisać pliku: "
+
+#: views/main.php:99
+msgid "This will establish connection to the chat servers"
+msgstr "Zostanie nawiązane połączenie z serwerami czatu"
+
+#: views/main.php:97
+msgid "Connect with support (click to load)"
+msgstr "Połączenie ze wsparciem technicznym (kliknij aby rozpocząć)"
+
+#: views/main.php:46
+msgid "(connects you to MyPopUps)"
+msgstr "(nastąpi połączenie z MyPopUps)"
+
+#: views/main.php:137
+msgid "Pop-up cannot be enabled - please go to your <a href=\"%s\">Dashboard on Mypopups</a> to see why and fix the issues"
+msgstr "Nie można włączyć pop-upu – przejdź do <a href=\"%s\">panelu na MyPopUps</a>, aby poznać przyczynę i dowiedzieć się, jak naprawić problem"
+
+#: views/main.php:30 views/main.php:128
+msgid "Disabled"
+msgstr "Wyłączono"
+
+#: views/main.php:29 views/main.php:125
+msgid "Enabled"
+msgstr "Włączono"
+
+#: views/main.php:120
+msgid "Configure on MyPopUps"
+msgstr "Skonfiguruj na MyPopUps"
+
+#: views/main.php:79
+msgid "Visit your homepage"
+msgstr "Odwiedź swoją stronę główną"
+
+#: views/main.php:74
+msgid "If you haven’t set up any pop-up yet, <a href='%s' target='_blank'>do it here</a>."
+msgstr "Jeśli nie masz jeszcze żadnych pop-upów, <a href='%s' target='_blank'>stwórz je tutaj</a>."
+
+#: views/main.php:72
+msgid "(and click on “Refresh” above)."
+msgstr "(i kliknij „Odśwież” powyżej)."
+
+#: views/main.php:71
+msgid "on MyPopUps so that they get displayed here"
+msgstr "na MyPopUps, aby zostały wyświetlone w tym oknie"
+
+#: views/main.php:70
+msgid "launch your pop-up(s)"
+msgstr "uruchom pop-upy"
+
+#: views/main.php:69
+msgid "Please now"
+msgstr "Teraz"
+
+#: views/main.php:64
+msgid "Create a new pop-up"
+msgstr "Stwórz nowy pop-up"
+
+#: views/main.php:61
+msgid "Refresh"
+msgstr "Odśwież"
+
+#: views/main.php:51
+msgid "After you did this, please click on «Yes, I already did!» above."
+msgstr "Po wykonaniu tej czynności, kliknij link «Tak. Pop-upy są gotowe!» znajdujący się powyżej."
+
+#: views/main.php:50
+msgid "The first step is that you create your Pop-Ups on MyPopUps.com."
+msgstr "Pierwszym krokiem jest stworzenie pop-upów na MyPopUps.com."
+
+#: views/main.php:45
+msgid "<h3>Yes</h3> I already did!"
+msgstr "<h3>Tak</h3> Pop-upy są gotowe!"
+
+#: views/main.php:42
+msgid "(takes less then 60 secs)"
+msgstr "(zajmie to mniej niż 60 sek.)"
+
+#: views/main.php:41
+msgid "<h3>No</h3> Let me do that now!"
+msgstr "<h3>Nie</h3> Chcę to zrobić teraz!"
+
+#: views/main.php:37
+msgid "Did you already create your PopUp(s) on <a target=\"_blank\" href=\"%s\">MyPopUps.com?</a>"
+msgstr "Czy pop-upy zostały już utworzone na <a target=\"_blank\" href=\"%s\">MyPopUps.com?</a>"
+
+#: views/main.php:34
+msgid "Welcome to MyPopUps!"
+msgstr "Witaj w MyPopUps!"
+
+#: pop-up-pop-up.php:95
+msgid "Powered by <b>MyPopUps</b>"
+msgstr "Stworzone przez <b>MyPopUps</b>"
+
+#: pop-up-pop-up.php:85
+msgid "Need help? Go to our <a href=\"%s\">support center</a>."
+msgstr "Masz problem? Przejdź do naszego <a href=\"%s\">centrum pomocy</a>."
+
+#. Plugin Name of the plugin
+#: pop-up-pop-up.php:67 views/main.php:58
+msgid "MyPopUps"
+msgstr "MyPopUps"
+
+#. Author URI of the plugin
+msgid "https://mypopups.com"
+msgstr "https://mypopups.com"
+
+#. Author of the plugin
+msgid "Pop-ups"
+msgstr "Pop-upy"
+
+#. Description of the plugin
+msgid "Create pop-ups without coding! Our builder allows you to create amazing looking pop-ups for a wide range of purposes (newsletter subscription, discounts, cookies etc.)."
+msgstr "Twórz pop-upy bez znajomości kodowania! Nasz kreator umożliwia tworzenie wspaniale wyglądających pop-upów, których możesz użyć do różnych celów (subskrypcja newslettera, zniżki, pliki cookie itp.)."
+
+#. Plugin URI of the plugin
+msgid "https://mypopups.com/"
+msgstr "https://mypopups.com/"

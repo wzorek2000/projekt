@@ -1,0 +1,258 @@
+@charset "UTF-8";
+/*
+Theme Name: Digi Restaurant
+Author: TheMagnifico52
+Theme URI: https://www.themagnifico.net/themes/free-digi-restaurant-wordpress-theme/
+Author URI: https://www.themagnifico.net/
+Description: Digi Restaurant is an amazing theme that will help you to create a modern website without having to write a single line of code. This multipurpose theme is ideal for coffee shops, cafes, pastry shop, pizza shops, hotels, restaurants, fast food, bakeries, pizzerias and any food related business website to take online orders ad table reservations free of charge or simply showcase it online. The theme is elegant and sophisticated too with responsive layout. It is SEO-friendly that will help your website rank soon on major search engines like Google. You can add shortcodes to improve the functionality of your website. The theme is professional in look. It is translation-ready and supports RTL layout. It is optimized for speed hence has faster page load times and loads without any glitches. It is based on bootstrap framework therefore it is very handy to use. It is written using clean and secure codes. The theme looks beautiful on any device, be it desktop, mobile or tabs. It offers a lot of customization and personalization options. Using the social media option you can link all your social media pages. The testimonial section let’s your customers delicately comment on your services and food items.
+Version: 0.3.4
+Tested up to: 5.9
+Requires PHP: 7.2
+License: GPLv2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Template: restaurant-zone
+Text Domain: digi-restaurant
+Tags: custom-logo, one-column, two-columns, wide-blocks, custom-background, custom-colors, custom-header, custom-menu, block-styles, sticky-post, footer-widgets, editor-style, featured-images, full-width-template, threaded-comments, theme-options, rtl-language-support, left-sidebar, right-sidebar, grid-layout, blog, e-commerce, food-and-drink
+
+Digi Restaurant WordPress Theme has been created by TheMagnifico52(themagnifico.net), 2021.
+Digi Restaurant WordPress Theme is released under the terms of GNU GPL
+*/
+
+
+h1,h2,h3,h4,h5,h6,.main-navigation .menu{
+    font-family: 'Berkshire Swash', cursive;
+}
+
+.sidebar input[type="submit"],
+.sidebar button[type="submit"],
+#button,
+.sticky .entry-title::before,
+.comment-respond input#submit,
+.main-navigation .menu > li > a:hover,
+.main-navigation .sub-menu,
+.btn-primary,
+.sidebar .tagcloud a:hover,
+.woocommerce ul.products li.product .onsale, .woocommerce span.onsale,
+.woocommerce .woocommerce-ordering select,
+.pro-button a, 
+.woocommerce #respond input#submit, 
+.woocommerce a.button, 
+.woocommerce button.button, 
+.woocommerce input.button, 
+.woocommerce #respond input#submit.alt, 
+.woocommerce a.button.alt, 
+.woocommerce button.button.alt, 
+.woocommerce input.button.alt,
+.woocommerce-account .woocommerce-MyAccount-navigation ul li,
+.reservation-btn a,
+.post-navigation .nav-previous a:hover, 
+.post-navigation .nav-next a:hover, 
+.posts-navigation .nav-previous a:hover, 
+.posts-navigation .nav-next a:hover,
+.toggle-nav button{
+    background: #d26e2b;
+}
+
+p.price, 
+.woocommerce ul.products li.product .price, 
+.woocommerce div.product p.price, 
+.woocommerce div.product span.price,
+.sidebar p a, 
+.entry-content a, 
+.entry-summary a, 
+.comment-content a,
+.navbar-brand p,
+#colophon a:hover, 
+#colophon a:focus,
+.sidebar a:hover,
+.woocommerce-message::before, 
+.woocommerce-info::before,
+.top-info i,
+.widget a:hover, 
+.widget a:focus{
+    color: #d26e2b;
+}
+
+.woocommerce-message, .woocommerce-info,
+.wp-block-quote, .wp-block-quote:not(.is-large):not(.is-style-large), .wp-block-pullquote,
+.post-navigation .nav-previous a:hover, 
+.post-navigation .nav-next a:hover, 
+.posts-navigation .nav-previous a:hover, 
+.posts-navigation .nav-next a:hover{
+    border-color: #d26e2b !important;
+}
+
+.socialmedia {
+    background: #feece1;
+}
+.top-info p,.social-link a {
+    color: #272323;
+}
+.main-navigation .menu > li {
+    font-size: 15px;
+    letter-spacing: 0;
+}
+.navbar-brand a {
+    color: #fff !important;
+}
+.navbar-brand p {
+    line-height: normal;
+}
+
+#top-section {
+    background: #191b23;
+    text-align: center;
+    position: relative;
+}
+#top-section img {
+    width: 100%;
+    border-bottom: 5px solid #000;
+}
+.top-inner p,.top-inner a {
+    color: #fff;
+}
+.top-inner h2 {
+    font-size: 50px;
+    color: #d26e2b;
+}
+.top-inner p{
+    font-family: 'Lora', serif;
+    font-size: 15px;
+}
+.top-inner {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 10%;
+    right: 10%;
+}
+.top-inner-btn a {
+    border: solid 1px #7c7d82;
+    color: #fff;
+    padding: 10px;
+    font-size: 14px;
+    border-radius: 6px;
+}
+.top-inner-btn a:hover {
+    background: #d26e2b;
+    color: #fff;
+    border: none;
+}
+
+.stick_header{
+  position:fixed;
+  width: 100%;
+}
+header#masthead.stick_header .head-menu {
+    background: #000 !important;
+}
+header#masthead.stick_header .socialmedia{
+  display: none;
+}
+
+#welcome-section {   
+    position: relative;
+}
+.welcome-box {
+    background: #fff;
+    padding: 20px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: -10%;
+    z-index: 999;
+}
+.welcome-box h2 {
+    font-size: 40px;
+    color: #d26e2b;
+}
+.welcome-box h3 {
+    font-family: 'Lora', serif;
+    font-size: 18px;
+}
+.welcome-box p {
+    color: #89898a;
+    font-size: 15px;
+}
+
+.article-box,.sidebar section {
+    background: #fff;
+}
+.article-box h3.entry-title {
+    font-size: 25px;
+}
+h3.entry-title a:hover {
+    color: #d26e2b !important;
+}
+
+h2.woocommerce-loop-product__title {
+    font-size: 18px !important;
+}
+.dot {
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  display: inline-block;
+  margin: 6px;
+  animation: loading 2s cubic-bezier(0.45, 0, 0.55, 1) infinite;
+}
+
+.loading {
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  z-index: 99999;
+}    
+@keyframes loading {
+  0%,
+  100% {
+    transform: translatey(-2.5rem);
+    background-color: #fff;
+  }
+  50% {
+    transform: translatey(2.5rem);
+    background-color: #d26e2b;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 720px){
+    .welcome-box,.top-inner {
+        position: static;
+        transform: none;
+    }
+    .navbar-brand{
+        text-align: left;
+    }
+    .page-template-custom-front-page .head-menu {
+        background: #191b23;
+    }
+    .main-navigation .sub-menu{
+        background: transparent !important;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px){
+    .top-inner p {
+        display: none;
+    }
+    .page-template-custom-front-page .head-menu {
+        background: #191b23;
+        position: static;
+    }
+    .top-inner h2 {
+        font-size: 30px;
+    }
+    .main-navigation .sub-menu{
+        background: transparent !important;
+    }
+}
+@media screen and (min-width: 1024px) and (max-width: 1199px){
+    .page-template-custom-front-page .head-menu {
+        background: #191b23;
+        position: static;
+    }
+}
+

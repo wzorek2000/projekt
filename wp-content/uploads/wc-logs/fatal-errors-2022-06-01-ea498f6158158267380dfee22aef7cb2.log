@@ -1,0 +1,9 @@
+2022-06-01T07:28:56+00:00 CRITICAL Uncaught Error: Call to a member function get_cart() on null in C:\xampp\htdocs\projekt\wp-content\plugins\points-and-rewards-for-woocommerce\public\class-points-rewards-for-woocommerce-public.php:1354
+Stack trace:
+#0 C:\xampp\htdocs\projekt\wp-includes\class-wp-hook.php(309): Points_Rewards_For_WooCommerce_Public->wps_wpr_validate_virtual_coupon_for_points(false, '-1')
+#1 C:\xampp\htdocs\projekt\wp-includes\plugin.php(191): WP_Hook->apply_filters(false, Array)
+#2 C:\xampp\htdocs\projekt\wp-content\plugins\woocommerce\includes\class-wc-coupon.php(99): apply_filters('woocommerce_get...', false, '-1', Object(WC_Coupon))
+#3 C:\xampp\htdocs\projekt\wp-content\plugins\woocommerce\src\Admin\API\Reports\Coupons\DataStore.php(168): WC_Coupon->__construct('-1')
+#4 C:\xampp\htdocs\projekt\wp-content\plugins\woocommerce\src\Admin\API\Reports\Coupons\DataStore.php(316): Automattic\WooCommerce\Admin\API\Reports\Coupons\DataStore->include_extended_info(Array, Array)
+#5 C:\xampp\htdocs\projekt\wp-content\plugins\woocommerce w C:\xampp\htdocs\projekt\wp-content\plugins\points-and-rewards-for-woocommerce\public\class-points-rewards-for-woocommerce-public.php w linii 1354
+
